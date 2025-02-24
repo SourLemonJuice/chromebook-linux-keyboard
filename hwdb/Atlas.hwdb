@@ -1,0 +1,3 @@
+evdev:atkbd:dmi:bvn*:bvr*:bd*:svnGoogle:pnAtlas:pvr*
+ KEYBOARD_KEY_d8=leftmeta
+ KEYBOARD_KEY_db=henkan
