@@ -9,7 +9,13 @@ Or rather, it's just a goal. Chromebooks have so many types. I don't know how to
 The HWDB defined the physical key values at the very low level.\
 You can see [hwdb/00-Specific.hwdb](hwdb/00-Specific.hwdb) and [ArchWiki](https://wiki.archlinux.org/title/Map_scancodes_to_keycodes#Remap_specific_device) as an example to write you match rule for your own device.
 
-Create and put the content into `/etc/udev/hwdb.d/61-chromebook.hwdb` file.
+Create and put the content into `/etc/udev/hwdb.d/61-chromebook.hwdb` file.\
+And run these command to update database:
+
+```shell
+sudo systemd-hwdb update
+sudo udevadm trigger
+```
 
 ## Generate keyd config
 
