@@ -43,10 +43,8 @@ The output file is `./chromebook.conf`, put it into `/etc/keyd/` and run `sudo k
 |alt+launch|capslock|
 |alt+brightnessdown|backlit down|
 |alt+brightnessup|backlit up|
-|alt+up|pageup|
-|alt+down|pagedown|
-|launch+left|home|
-|launch+right|end|
+|alt+left|home|
+|alt+right|end|
 |altgr+backspace|delete|
 
 > I don't know why GNOME doesn't recognize some of `f12+` and `KEY_ZOOM(== KEY_FULL_SCREEN)`, so I mapped the `Fullscreen` to `f18`, the `Overview` to `f17`. To use them, you must change the desktop environment setting.
